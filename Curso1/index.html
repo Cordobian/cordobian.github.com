@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> <!--metadatos siempre van dentro de head, son los datos que describen otros datos (titulos, encabezados, formatos, con zoom sin zoom, etc)-->
+		<title>CV de RJS</title> <!--titulo de la pagina-->
+		<meta name="description" content="RJS es un desarrollador en potencia quien se encuentra en la busqueda de trabajo actualmente">
+		<meta name="og:title" content="CV de RJS">
+		<meta name="og:description" content="RJS es un desarrollador en potencia quien se encuentra en la busqueda de trabajo actualmente">
+		<meta name="og:url" content="http://rjs.me">
+		<meta name="og:site_name" content="Protectos personales RJS">
+		<meta name="og:type" content="website">
+		<meta name="og:image" content="<url-imagen>">
+	</head>
+	<body style="font-family:Helvetica, Arial, sans-serif;margin:0;">
+		<!--<p nombre="valor"></p> //<p se utiliza para parrafos
+		<input autofocus> //valor booleano, por lo que con solo ponerlo ya lo hacemos verdadero-->
+		<header style="background-color:#40a393;color:white;text-align:center;padding:12px;border:black 3px solid;"> <!--background-color se utiliza para cambiar el color del fondo, se puede buscar el codigo del color en google poniendo color picker // text-align para alinear el texto // padding para dar espacios vacios alrededor del texto-->
+			<!--encabezados en la pagina web-->
+			<!--los titulos se especifican usando etiquetas h(1 a 6), siendo h1 la que tiene mas relacion con el titulo principal-->
+			<h1 style="display:inline-block;width:400px;font-weight:bold;">RODRIGO J. SANCHEZ</h1>
+			<h1 style="display:inline-block;width:400px;font-weight:bold;">CURRICULUM VITAE</h1>
+		</header>
+		<div style="background-color:#f06292;color:black;text-align:center;padding:10px;border:black 3px solid;margin-top:0.5px;"> <!--div su funcion es la de agrupar elementos y es la mas usada en html-->
+			IN LIFE YOU HAVE TO TAKE EVERY CHANCE YOU HAVE TO SUCCED!
+		</div>
+		<section style="background-image: url(imgs/fondo.jpg);background-size:10rem;"> <!--separa secciones en la pagina-->
+			<div style="width:960px;margin-right:auto;margin-left:auto;margin-top:0.5px;">
+				<div style="background-color:aliceblue;border:3px solid;">
+					<div style="display:inline-block;width:53%;vertical-align:top;padding:0px;margin-bottom:8px;">
+						<h3 style="font-size:36px;font-weight:700px;margin:0;text-align:center;"><u>Education</u></h3>
+						<!--Listas: exiten 3 tipos, ordenadas (etiqueta lista:<ol></ol> etiqueta elemento:<li></li> // los elementos se muestran en orden consecutivo) ,desordenadas(etiqueta lista:<ul></ul> etiqueta elemento:<li></li>// elementos con relacion entre si pero sin orden) y definiciones(etiqueta lista:<dl></dl> etiqueta termino <dt></dt> etiqueta definicion <dd></dd> // se usa para colocar conceptos o definiciones)-->
+						<div>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Ingenieria en Sistemas de Informacion</dt>
+								<dd>2011-2023, Universidad Tecnonlogica Nacional (FRT)</dd>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Languajes: Spanish (Native)</dt>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Languajes: English (Upper Intermediate)</dt>
+								<dd>2003-2010: Asociacion Cultural Britanica</dd>
+								<dd>2011: Oxford English Center</dd>
+							</dl>
+						</div>
+					</div>
+					<figure style="display:inline-block;border:lightseagreen 5px outset;line-height:0;">
+						<img src="imgs/imgcv.jpeg" width="350" height="290"> <!--La ruta de la imagen debe ser relativa-->
+					</figure>
+					<div style="margin-top:3 0px;width:57%;">
+						<h3 style="font-size:36px;font-weight:700px;text-align:center;"><u>Courses</u></h3>
+						<div>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">PC repairman course (Intermediate level).</dt>
+								<dd>2012: Certificate of approval.</dd>
+							</dl>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Introductory course to programming.</dt>
+								<dd>2021: Certificate of approval.</dd>
+							</dl>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Java Professional Course.</dt>
+								<dd>2012: Certificate of approval.</dd>
+							</dl>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Electrical installations Course.</dt>
+								<dd>2012: Certificate of approval.</dd>
+							</dl>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Experiential Training Transformation into Action Course in Professional School of Ontological Coaching (Level 1).</dt>
+								<dd>2014: Certificate of approval.</dd>
+							</dl>
+							<dl>
+								<dt style="font-size:22px;text-transform:uppercase;margin-bottom:12px;margin-top:36px;margin-left:2px;">Agile Software Development Exhibition: Scrum and TDD.</dt>
+								<dd>2014: Collaborator certificate.</dd>
+							</dl>
+						</div>
+					</div>
+					<div style="margin-top:30px;margin-bottom:10px;width:57%;">
+						<h3 style="font-size:36px;font-weight:700px;text-align:center;"><u>Aditional Information</u></h3>
+						<ul style="margin-top:12px;">
+							<li style="margin-top:16px">
+								<a href="https://www.linkedin.com/in/rodrigo-josé-sánchez-45398b211/" target="_blank">Linkedin</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
