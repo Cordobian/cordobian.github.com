@@ -1,11 +1,3 @@
-p{	
-	color:red;
-}
-.selector-de-clase{
-	height: 200px;
-	width: 100px;
-	background-color: darkred;
-}
-#boton-pago{
-	background-color: yellow;
+td{
+	border:solid 1px;
 }
