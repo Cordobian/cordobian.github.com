@@ -1,3 +1,138 @@
-td{
-	border:solid 1px;
+/* CSS HEX */
+/*
+--dark-liver: #584b53ff;
+--copper-rose: #9d5c63ff;
+--periwinkle-crayola: #d6e3f8ff;
+--seashell: #fef5efff;
+--desert-sand: #e4bb97ff;
+--yellow: #ffc400;
+*/
+
+html{
+	font-family: 'Merriweather', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #e4bb97ff;
+}
+
+a:hover{
+	opacity: 0.8;
+}
+
+address{
+	font-weight: bold;
+	color: #9d5c63ff;
+	font-size: 1.2em;
+}
+
+.logo{
+	text-align: center;
+	padding: 0; 
+	margin: 0;
+}
+
+.title{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 0 0.5em 0;
+}
+
+.title-item{
+	text-transform: uppercase;
+	/*border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #FFA17F;*/
+	border-bottom: solid 2px #FFA17F;
+	padding-bottom: 1em;
+	font-size: 2em;
+}
+
+.text{
+	margin-left: 5px;
+}
+
+.paragraph{
+	line-height: 1.8em;
+	font-weight: 300;
+}
+
+.container{
+	background: #FFA17F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content{
+	max-width:960px;
+	max-height:500px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 12px;
+	position: relative;
+	padding: 1.8em;
+}
+
+.actions{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+
+.close{
+	height: 40px;
+	width: 40px;
+	color: white;
+	border-radius: 50%;
+	background-color: #FFA17F;
+	display: inline-block;
+	font-weight: 300;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-img{
+	float: left;
+	margin-right: 1em;
+	height: 250px;
+}
+
+.table{
+	width: 100%;
+	border-spacing: 0;
+	/*margin: 0 auto;*/
+}
+
+.table th{
+	background-color: antiquewhite;
+}
+
+.table td, .table th{
+	text-align: left;
+	padding: 1em;
+}
+
+.table tr:nth-child(even){ background-color: #584b53ff; }
+.table tr:nth-child(odd){ background-color: #9d5c63ff; }
+
+.fa-star{
+	color: #ffc400;
+}
+
+.position{
+	background-color: #FFA17F;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-right: 0.5em;
 }
