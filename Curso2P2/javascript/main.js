@@ -32,7 +32,7 @@ cerrar.forEach(function(cierre){
 		
 			//Devolvemos funcionalidad de cierre
 			setTimeout(function(){
-				location.href = "/";
+				location.href = "/Curso2P2";
 			},600);
 
 		});
