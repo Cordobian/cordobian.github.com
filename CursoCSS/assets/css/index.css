@@ -12,13 +12,14 @@ body{
 
 h1{
 	border-radius: 2em;
-	border: double; skyblue; 0.2rem;
+	border: double skyblue 0.3rem;
 	padding: 1em;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
 
 footer{
 	position: relative;
-	padding-top: 7rem;
+	padding-top: 3rem;
 }
 
 .pie{
@@ -31,9 +32,59 @@ h1,p{
 	color: white;
 }
 
+.polaroid img{
+	opacity: .5;
+	filter: blur(2px);
+} 
+
+.polaroid img:hover{
+	opacity:1;
+	filter: blur(0);
+}
+
+div.polaroid{
+	position: relative;
+	background-color: white;
+	width: 300px;
+	padding: 10px;
+	margin-left: 10%;
+	margin-bottom: 25px;
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	transition: transform 2s;
+	transition-delay: 0.2s;
+}
+
+div.galeria{
+	display: inline-block;
+}
+
+div.polaroid:hover{
+	transform: rotate(20deg) scale(1.5);
+	z-index: 1;
+	cursor: progress;
+}
+
+.texto{
+	text-align: center;
+}
+
+.texto p{
+	color: black;
+}
+
+.imgtext{
+	position: absolute;
+	top: 8%;
+	left: 30px;
+	color: white;
+	font-size: 18px;
+}
+
 .enlaces{
 	position: relative;
 	padding-bottom: 2em;
+	display: grid;
 }
 
 /*Selector de atributos*/
