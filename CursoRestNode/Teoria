@@ -1,0 +1,11 @@
+/*					Node JS + REST 					*/
+
+
+app.get('/', (req, res)=>{ 
+
+/*Comportamiento del servidor web cuando entren a la ruta principal (/), lleva siempre dos parametros req = request (peticion del usuario)
+, res = response (respuesta al usuario) */
+
+app.listen(3000,function())
+
+/*la funcion listen sirve para indicar que puesto va a escuchar la app, desde el 1024 al 65535, sin embargo los mas comunes son el 3000, 8080 y 8000*/
