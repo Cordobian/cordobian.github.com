@@ -1,0 +1,29 @@
+<-- Boostrap -->
+
+*Boostrap se utiliza para CSS y tiene integracion con elementos JS
+*Se Puede utilizar agregando los archivos al proyecto o referenciando a la web de boostrap
+**Agregar la integracion en el html con 
+*** <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+**Si ademas quiere integrar con la compilacion de JS de boostrap
+*** <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+*Boostrap tiene por defecto un tamaño de viewport mobile por lo que se aplica la estrategia mobile fisrt
+**Se recomienda agregar la etiqueta <meta name-"viewport" content-"width-device-width, initial-scale-1, shrink-to-fit-no">
+
+*Es comun sobreescribir los estilos de boostrap
+*Casi todos los elementos de boostrap estan basados en el sistema grid
+
+<-- Containers -->
+
+*El layout mas basico son los containers <div class="container">
+								<!-- Content here -->
+						     </div>
+
+*Si se quiere que ocupe siempre todo el ancho de la pagina se usa container-fluid <div class="container-fluid">
+														<!-- Content here -->
+						    					  		    </div>
+
+*Para realizar el diseño responsive usaremos las media queries, ya vienen incluidas en los archivos de boostrap con tamaños por defecto sin embargo se pueden modificar pero no es recomendable
