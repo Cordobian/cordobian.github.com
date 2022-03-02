@@ -1,0 +1,122 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/033d27f44c3957454d19fb79a501630fd9fecf5963960bba76c2bb059fa30bbe49a0890c30af2b3b82e37691547386d507d684effeaf6bc0831620_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 760px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 640px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 60px 30px 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: none;
+  line-height: 52.8px;
+  margin: 120px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  letter-spacing: 2px;
+  margin: 32px 0 0;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 640px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 30px 30px 60px;
+}
+
+.u-section-1 .u-form-1 {
+  margin: 0;
+}
+
+.u-section-1 .u-label-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-label-2 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-label-3 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 528px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 528px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 37px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-right: 0;
+    padding-left: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 137px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    line-height: 1.2;
+  }
+}
