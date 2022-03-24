@@ -4,6 +4,14 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+.whatsapp{
+  position:fixed;
+  right:5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 20px;
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;

@@ -2,6 +2,14 @@
   min-height: 940px;
 }
 
+.whatsapp{
+  position:fixed;
+  right:5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 20px;
+}
+
 .u-section-1 .u-text-1 {
   line-height: 1.2;
   margin: 54px auto 0;
