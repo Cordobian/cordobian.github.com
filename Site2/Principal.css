@@ -2,6 +2,10 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/596fce906827a06a68d9407f9bedd2cfff8481a29d99fd4ac25b0c72e0a10de50247d2f9a093a8cc6ce44b6166e8e507e8c1b67543da335113a5a0_1280.jpg");
 }
 
+.u-section-2 {
+  background-image: url("images/woodybg.jpg");
+}
+
 .whatsapp{
   position:fixed;
   width:60px;
