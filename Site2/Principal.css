@@ -6,6 +6,10 @@ section {
   background-image: url("images/woodybg.jpg");
 }
 
+div {
+  background-image: url("images/woodybg.jpg");
+}
+
 .whatsapp{
   position:fixed;
   width:60px;
