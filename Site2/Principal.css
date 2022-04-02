@@ -10,6 +10,10 @@
   background-image: url("images/woodybg-16.jpg");
 }
 
+.u-corrido {
+  padding-bottom: 0.5em;
+}
+
 .whatsapp{
   position:fixed;
   width:60px;
