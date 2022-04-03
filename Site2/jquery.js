@@ -6,8 +6,8 @@
 let img0 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e66e58be0480b4e0491180e40b2c9ea0d12eedd079d381f22b2b9d4a2d_1280.jpg";
 let img1 = "images/DSC_0135.jpg";
 let img2 = "images/DSC_0258.jpg";
-let img3 = "images/DSC_0135.jpg";
-let img4 = "images/DSC_0258.jpg";
+let img3 = "images/DSC_0069.jpg";
+let img4 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e66e58be0480b4e0491180e40b2c9ea0d12eedd079d381f22b2b9d4a2d_1280.jpg";
 
     jQuery("#text1").on('mouseenter', function() {
         jQuery("#image").attr('src', img1);
