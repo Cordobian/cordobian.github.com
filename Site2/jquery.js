@@ -36,19 +36,19 @@ let img4 = "images/DSC_0258.jpg";
 
     /* Cafeteria/Hoga */
 
-let img00 = "images/7fa983ba902612b94e6f0ca5ab1c9632e3dcf217ca1b455266dcb5e118b6f1373714db8410e72ae6346ade5942285a8c4b81c1c1f023b80b6f28aa_1280.jpg";
-let img5 = "images/DSC_0135.jpg";
-let img6 = "images/DSC_0135.jpg";
-let img7 = "images/DSC_0258.jpg";
-let img8 = "images/DSC_0135.jpg";
-let img9 = "images/DSC_0258.jpg";
-let img10 = "images/DSC_0135.jpg";
-let img11 = "images/DSC_0135.jpg";
-let img12 = "images/DSC_0135.jpg";
-let img13 = "images/DSC_0135.jpg";
-let img14 = "images/DSC_0135.jpg";
-let img15 = "images/DSC_0135.jpg";
-let img16 = "images/DSC_0135.jpg";
+let img00 = "images/DSC_0327.jpg";
+let img5 = "images/DSC_0327.jpg";
+let img6 = "images/DSC_0327.jpg";
+let img7 = "images/DSC_0327.jpg";
+let img8 = "images/DSC_0034.jpg";
+let img9 = "images/DSC_0116.jpg";
+let img10 = "images/DSC_0989.jpg";
+let img11 = "images/DSC_0327.jpg";
+let img12 = "images/DSC_0327.jpg";
+let img13 = "images/DSC_0327.jpg";
+let img14 = "images/DSC_0327.jpg";
+let img15 = "images/DSC_0057.jpg";
+let img16 = "images/DSC_0327.jpg";
 
     jQuery("#text5").on('mouseenter', function() {
         jQuery("#image2").attr('src', img5);
@@ -125,19 +125,19 @@ let img16 = "images/DSC_0135.jpg";
 
     /* Sandwicheria */
 
-let img000 = "images/7fa983ba902612b94e6f0ca5ab1c9632e3dcf217ca1b455266dcb5e118b6f1373714db8410e72ae6346ade5942285a8c4b81c1c1f023b80b6f28aa_1280.jpg";
-let img05 = "images/DSC_0135.jpg";
-let img06 = "images/DSC_0135.jpg";
-let img07 = "images/DSC_0258.jpg";
-let img08 = "images/DSC_0135.jpg";
-let img09 = "images/DSC_0258.jpg";
-let img010 = "images/DSC_0135.jpg";
-let img011 = "images/DSC_0135.jpg";
-let img012 = "images/DSC_0135.jpg";
-let img013 = "images/DSC_0135.jpg";
-let img014 = "images/DSC_0135.jpg";
+let img000 = "images/DSC_0193.jpg";
+let img05 = "images/DSC_0144.jpg";
+let img06 = "images/DSC_0211.jpg";
+let img07 = "images/DSC_1002.jpg";
+let img08 = "images/DSC_0275.jpg";
+let img09 = "images/DSC_0176.jpg";
+let img010 = "images/DSC_0043.jpg";
+let img011 = "images/DSC_0101.jpg";
+let img012 = "images/DSC_0095.jpg";
+let img013 = "images/DSC_0193.jpg";
+let img014 = "images/DSC_0258.jpg";
 let img015 = "images/DSC_0135.jpg";
-let img016 = "images/DSC_0135.jpg";
+let img016 = "images/DSC_0137.jpg";
 
     jQuery("#text05").on('mouseenter', function() {
         jQuery("#image3").attr('src', img05);
