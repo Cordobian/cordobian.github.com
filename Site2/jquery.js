@@ -19,15 +19,15 @@ let img4 = "images/DSC_0258.jpg";
     jQuery("#text4").on('mouseenter', function() {
         jQuery("#image").attr('src', img4);
     });
-    jQuery("#text1").off('mouseleave', function() {
+    jQuery("#text1").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
-    jQuery("#text2").off('mouseleave', function() {
+    jQuery("#text2").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
-    jQuery("#text3").off('mouseleave', function() {
+    jQuery("#text3").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
-    jQuery("#text4").off('mouseleave', function() {
+    jQuery("#text4").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
