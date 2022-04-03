@@ -15,3 +15,6 @@ let img4 = "images/DSC_0258.jpg";
     jQuery("#text3").on('click', function() {
         jQuery("#image").attr('src', img3);
     });
+    jQuery("#text4").on('click', function() {
+        jQuery("#image").attr('src', img4);
+    });
