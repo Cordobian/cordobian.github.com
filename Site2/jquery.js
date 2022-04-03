@@ -51,74 +51,163 @@ let img15 = "images/DSC_0135.jpg";
 let img16 = "images/DSC_0135.jpg";
 
     jQuery("#text5").on('mouseenter', function() {
-        jQuery("#image").attr('src', img5);
+        jQuery("#image2").attr('src', img5);
     });
     jQuery("#text6").on('mouseenter', function() {
-        jQuery("#image").attr('src', img6);
+        jQuery("#image2").attr('src', img6);
     });
     jQuery("#text7").on('mouseenter', function() {
-        jQuery("#image").attr('src', img7);
+        jQuery("#image2").attr('src', img7);
     });
     jQuery("#text8").on('mouseenter', function() {
-        jQuery("#image").attr('src', img8);
+        jQuery("#image2").attr('src', img8);
     });
     jQuery("#text9").on('mouseenter', function() {
-        jQuery("#image").attr('src', img9);
+        jQuery("#image2").attr('src', img9);
     });
     jQuery("#text10").on('mouseenter', function() {
-        jQuery("#image").attr('src', img10);
+        jQuery("#image2").attr('src', img10);
     });
     jQuery("#text11").on('mouseenter', function() {
-        jQuery("#image").attr('src', img11);
+        jQuery("#image2").attr('src', img11);
     });
     jQuery("#text12").on('mouseenter', function() {
-        jQuery("#image").attr('src', img12);
+        jQuery("#image2").attr('src', img12);
     });
     jQuery("#text13").on('mouseenter', function() {
-        jQuery("#image").attr('src', img13);
+        jQuery("#image2").attr('src', img13);
     });
     jQuery("#text14").on('mouseenter', function() {
-        jQuery("#image").attr('src', img14);
+        jQuery("#image2").attr('src', img14);
     });
     jQuery("#text15").on('mouseenter', function() {
-        jQuery("#image").attr('src', img15);
+        jQuery("#image2").attr('src', img15);
     });
     jQuery("#text16").on('mouseenter', function() {
-        jQuery("#image").attr('src', img16);
+        jQuery("#image2").attr('src', img16);
     });
     jQuery("#text5").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text6").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text7").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text8").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text9").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text10").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text11").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text12").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text13").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text14").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text15").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
     });
     jQuery("#text16").on('mouseleave', function() {
-        jQuery("#image").attr('src', img00);
+        jQuery("#image2").attr('src', img00);
+    });
+
+    /* Sandwicheria */
+
+let img000 = "images/7fa983ba902612b94e6f0ca5ab1c9632e3dcf217ca1b455266dcb5e118b6f1373714db8410e72ae6346ade5942285a8c4b81c1c1f023b80b6f28aa_1280.jpg";
+let img05 = "images/DSC_0135.jpg";
+let img06 = "images/DSC_0135.jpg";
+let img07 = "images/DSC_0258.jpg";
+let img08 = "images/DSC_0135.jpg";
+let img09 = "images/DSC_0258.jpg";
+let img010 = "images/DSC_0135.jpg";
+let img011 = "images/DSC_0135.jpg";
+let img012 = "images/DSC_0135.jpg";
+let img013 = "images/DSC_0135.jpg";
+let img014 = "images/DSC_0135.jpg";
+let img015 = "images/DSC_0135.jpg";
+let img016 = "images/DSC_0135.jpg";
+
+    jQuery("#text05").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img05);
+    });
+    jQuery("#text06").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img06);
+    });
+    jQuery("#text07").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img07);
+    });
+    jQuery("#text08").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img08);
+    });
+    jQuery("#text09").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img09);
+    });
+    jQuery("#text010").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img010);
+    });
+    jQuery("#text011").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img011);
+    });
+    jQuery("#text012").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img012);
+    });
+    jQuery("#text013").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img013);
+    });
+    jQuery("#text014").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img014);
+    });
+    jQuery("#text015").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img015);
+    });
+    jQuery("#text016").on('mouseenter', function() {
+        jQuery("#image3").attr('src', img016);
+    });
+    jQuery("#text05").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text06").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text07").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text08").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text09").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text010").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text011").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text012").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text013").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text014").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text015").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
+    });
+    jQuery("#text016").on('mouseleave', function() {
+        jQuery("#image3").attr('src', img000);
     });
