@@ -6,7 +6,7 @@ let img2 = "images/DSC_0258.jpg";
 let img3 = "images/DSC_0135.jpg";
 let img4 = "images/DSC_0258.jpg";
 
-    jQuery("#text1").on('click', function() {
+    jQuery("#text1").on('mouseenter', function() {
         jQuery("#image").attr('src', img1);
     });
     jQuery("#text2").on('click', function() {
