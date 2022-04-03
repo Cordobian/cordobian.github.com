@@ -7,7 +7,7 @@ let img0 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e
 let img1 = "images/DSC_0135.jpg";
 let img2 = "images/DSC_0258.jpg";
 let img3 = "images/DSC_0069.jpg";
-let img4 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e66e58be0480b4e0491180e40b2c9ea0d12eedd079d381f22b2b9d4a2d_1280.jpg";
+let img4 = "images/DSC_0294.jpg";
 
     jQuery("#text1").on('mouseenter', function() {
         jQuery("#image").attr('src', img1);
@@ -37,18 +37,18 @@ let img4 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e
     /* Cafeteria/Hoga */
 
 let img00 = "images/DSC_0327.jpg";
-let img5 = "images/DSC_0327.jpg";
-let img6 = "images/DSC_0327.jpg";
-let img7 = "images/DSC_0327.jpg";
+let img5 = "images/DSC_0294.jpg";
+let img6 = "images/DSC_0294.jpg";
+let img7 = "images/DSC_0294.jpg";
 let img8 = "images/DSC_0034.jpg";
 let img9 = "images/DSC_0116.jpg";
 let img10 = "images/DSC_0989.jpg";
-let img11 = "images/DSC_0327.jpg";
-let img12 = "images/DSC_0327.jpg";
-let img13 = "images/DSC_0327.jpg";
-let img14 = "images/DSC_0327.jpg";
+let img11 = "images/DSC_0294.jpg";
+let img12 = "images/DSC_0294.jpg";
+let img13 = "images/DSC_0294.jpg";
+let img14 = "images/DSC_0294.jpg";
 let img15 = "images/DSC_0057.jpg";
-let img16 = "images/DSC_0327.jpg";
+let img16 = "images/DSC_0294.jpg";
 
     jQuery("#text5").on('mouseenter', function() {
         jQuery("#image2").attr('src', img5);
@@ -134,7 +134,7 @@ let img09 = "images/DSC_0176.jpg";
 let img010 = "images/DSC_0043.jpg";
 let img011 = "images/DSC_0101.jpg";
 let img012 = "images/DSC_0095.jpg";
-let img013 = "images/DSC_0193.jpg";
+let img013 = "images/DSC_0294.jpg";
 let img014 = "images/DSC_0258.jpg";
 let img015 = "images/DSC_0135.jpg";
 let img016 = "images/DSC_0137.jpg";
