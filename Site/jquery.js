@@ -4,9 +4,9 @@
     /* Precocidos */
 
 let img0 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e66e58be0480b4e0491180e40b2c9ea0d12eedd079d381f22b2b9d4a2d_1280.jpg";
-let img1 = "images/DSC_0135.jpg";
-let img2 = "images/DSC_0258.jpg";
-let img3 = "images/DSC_0069.jpg";
+let img1 = "images/DSC_0135.webp";
+let img2 = "images/DSC_0258.webp";
+let img3 = "images/DSC_0069.webp";
 let img4 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e66e58be0480b4e0491180e40b2c9ea0d12eedd079d381f22b2b9d4a2d_1280.jpg";
 
     jQuery("#text1").on('mouseenter', function() {
@@ -36,19 +36,19 @@ let img4 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e
 
     /* Cafeteria/Hoga */
 
-let img00 = "images/DSC_0327.jpg";
-let img5 = "images/DSC_0327.jpg";
-let img6 = "images/DSC_0327.jpg";
-let img7 = "images/DSC_0327.jpg";
-let img8 = "images/DSC_0034.jpg";
-let img9 = "images/DSC_0116.jpg";
-let img10 = "images/DSC_0989.jpg";
-let img11 = "images/DSC_0327.jpg";
-let img12 = "images/DSC_0327.jpg";
-let img13 = "images/DSC_0327.jpg";
-let img14 = "images/DSC_0327.jpg";
-let img15 = "images/DSC_0057.jpg";
-let img16 = "images/DSC_0327.jpg";
+let img00 = "images/DSC_0327.webp";
+let img5 = "images/DSC_0327.webp";
+let img6 = "images/DSC_0327.webp";
+let img7 = "images/DSC_0327.webp";
+let img8 = "images/DSC_0034.webp";
+let img9 = "images/DSC_0116.webp";
+let img10 = "images/DSC_0989.webp";
+let img11 = "images/DSC_0327.webp";
+let img12 = "images/DSC_0327.webp";
+let img13 = "images/DSC_0327.webp";
+let img14 = "images/DSC_0327.webp";
+let img15 = "images/DSC_0057.webp";
+let img16 = "images/DSC_0327.webp";
 
     jQuery("#text5").on('mouseenter', function() {
         jQuery("#image2").attr('src', img5);
@@ -125,19 +125,19 @@ let img16 = "images/DSC_0327.jpg";
 
     /* Sandwicheria */
 
-let img000 = "images/DSC_0193.jpg";
-let img05 = "images/DSC_0144.jpg";
-let img06 = "images/DSC_0211.jpg";
-let img07 = "images/DSC_1002.jpg";
-let img08 = "images/DSC_0275.jpg";
-let img09 = "images/DSC_0176.jpg";
-let img010 = "images/DSC_0043.jpg";
-let img011 = "images/DSC_0101.jpg";
-let img012 = "images/DSC_0095.jpg";
-let img013 = "images/DSC_0193.jpg";
-let img014 = "images/DSC_0258.jpg";
-let img015 = "images/DSC_0135.jpg";
-let img016 = "images/DSC_0137.jpg";
+let img000 = "images/DSC_0193.webp";
+let img05 = "images/DSC_0144.webp";
+let img06 = "images/DSC_0211.webp";
+let img07 = "images/DSC_1002.webp";
+let img08 = "images/DSC_0275.webp";
+let img09 = "images/DSC_0176.webp";
+let img010 = "images/DSC_0043.webp";
+let img011 = "images/DSC_0101.webp";
+let img012 = "images/DSC_0095.webp";
+let img013 = "images/DSC_0193.webp";
+let img014 = "images/DSC_0258.webp";
+let img015 = "images/DSC_0135.webp";
+let img016 = "images/DSC_0137.webp";
 
     jQuery("#text05").on('mouseenter', function() {
         jQuery("#image3").attr('src', img05);
