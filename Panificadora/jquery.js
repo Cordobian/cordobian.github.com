@@ -7,6 +7,7 @@ let img0 = "images/72f96138313f2227abcb3a6277f484ba66263ef3610f8b8a423701cca0b1e
 let img1 = "images/DSC_0135.jpg";
 let img2 = "images/DSC_0258.jpg";
 let img3 = "images/DSC_0069.jpg";
+let img15 = "images/DSC_0057.jpg";
 let img4 = "images/DSC_0294.jpg";
 
     jQuery("#text1").on('mouseenter', function() {
@@ -17,6 +18,9 @@ let img4 = "images/DSC_0294.jpg";
     });
     jQuery("#text3").on('mouseenter', function() {
         jQuery("#image").attr('src', img3);
+    });
+    jQuery("#text15").on('mouseenter', function() {
+        jQuery("#image").attr('src', img15);
     });
     jQuery("#text4").on('mouseenter', function() {
         jQuery("#image").attr('src', img4);
@@ -30,6 +34,9 @@ let img4 = "images/DSC_0294.jpg";
     jQuery("#text3").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
+    jQuery("#text15").on('mouseleave', function() {
+        jQuery("#image").attr('src', img0);
+    });    
     jQuery("#text4").on('mouseleave', function() {
         jQuery("#image").attr('src', img0);
     });
@@ -47,7 +54,6 @@ let img11 = "images/DSC_0294.jpg";
 let img12 = "images/DSC_0294.jpg";
 let img13 = "images/DSC_0294.jpg";
 let img14 = "images/DSC_0294.jpg";
-let img15 = "images/DSC_0057.jpg";
 let img16 = "images/DSC_0294.jpg";
 
     jQuery("#text5").on('mouseenter', function() {
@@ -80,9 +86,6 @@ let img16 = "images/DSC_0294.jpg";
     jQuery("#text14").on('mouseenter', function() {
         jQuery("#image2").attr('src', img14);
     });
-    jQuery("#text15").on('mouseenter', function() {
-        jQuery("#image2").attr('src', img15);
-    });
     jQuery("#text16").on('mouseenter', function() {
         jQuery("#image2").attr('src', img16);
     });
@@ -114,9 +117,6 @@ let img16 = "images/DSC_0294.jpg";
         jQuery("#image2").attr('src', img00);
     });
     jQuery("#text14").on('mouseleave', function() {
-        jQuery("#image2").attr('src', img00);
-    });
-    jQuery("#text15").on('mouseleave', function() {
         jQuery("#image2").attr('src', img00);
     });
     jQuery("#text16").on('mouseleave', function() {
